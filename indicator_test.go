@@ -173,7 +173,6 @@ func TestIndicator_RSI(t *testing.T) {
 		34142.6,
 		34068.9,
 	}, 3)
-	fmt.Println(result)
 	go_test_.Equal(t, true, math.IsNaN(result[0]))
 	go_test_.Equal(t, true, math.IsNaN(result[1]))
 	go_test_.Equal(t, true, math.IsNaN(result[2]))
