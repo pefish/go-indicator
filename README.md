@@ -7,6 +7,17 @@ go-indicator
 ## Quick start
 
 ```go
+func main() {
+    result := NewIndicator().RSI([]float64{
+        34220.4,
+        34349.2,
+        34352.5,
+        34195.4,
+        34142.6,
+        34068.9,
+    }, 3)
+    fmt.Println(result)
+}
 
 ```
 
