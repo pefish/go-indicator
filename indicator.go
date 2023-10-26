@@ -4,6 +4,8 @@ import (
 	"math"
 )
 
+var IndicatorInstance = NewIndicator()
+
 type Indicator struct {
 }
 
